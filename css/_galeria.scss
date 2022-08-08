@@ -1,0 +1,22 @@
+#galeria{
+    .tituloGaleria{
+        margin-top: 50px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 2px;
+    }
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    .galeriaImg{
+        padding: 50px;
+        img{
+            width: 100%;
+            height: 500px;
+            padding: 40px;
+            &:hover{
+            border: 5px solid $colorFondo;
+        }
+    }
+}  
+} 

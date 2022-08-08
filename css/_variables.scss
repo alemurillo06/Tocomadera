@@ -1,0 +1,43 @@
+$colorFondo: #384F70;
+$blanco: #EFEBDD;
+$colorToque: #78A8F0;
+$detalles: #587BB0;
+$negro: #000;
+$gris: #D9D9D9;
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.tarjeta{
+    .botonColor{
+        background-color: $detalles;
+        border-color: $colorToque;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        text-align: center;
+        &:hover{
+            background-color: $colorFondo;
+            border-color: $colorToque;
+            color: $colorToque;
+        }
+    }
+}
+$redes:(
+    twitter:  #00acee,
+    facebook: #3b5998,
+    instagram: #ff0080,
+    whatsapp: #00BB2D,
+);
+
+@each $red, $color in $redes {
+    .bi-#{$red}{
+        background-color: $color;
+        border: 01px $color;
+        padding: 6px;
+        border-radius: 2px;
+        width: 30px;
+        border-radius: 5px;
+    }
+
+}

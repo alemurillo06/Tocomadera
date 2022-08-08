@@ -1,0 +1,15 @@
+.caracteristicas{
+    background-color: $colorFondo;
+    text-align: center;
+    padding: 40px;
+    color: $blanco;
+    .titulocaracteristicas{
+        padding-bottom: 15px;
+        .textoCaracteristicas{
+            color: $detalles;
+        }
+    }
+    .parrafoCaracteristicas{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,30 @@
+header {
+    background-color: $colorFondo;
+    .navbar {
+        .navbar-brand {
+            color: $blanco;
+            text-decoration: dotted;
+            font-size: 30px;
+        }
+        #colorBoton {
+            background-color: $colorToque;
+            border-color: $colorToque;
+            &:hover {
+                background-color: $colorFondo;
+                border-color: $colorToque;
+                color: $colorToque;
+            }
+        }
+        background-color: $colorFondo;
+        .nav-item {
+            .nav-link {
+                color: $blanco;
+                font-weight: 600;
+                &:hover {
+                    background-color: $colorToque;
+                }
+                
+            }
+        }
+    }
+}

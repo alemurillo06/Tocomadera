@@ -145,13 +145,13 @@ header .navbar .nav-item .nav-link:hover {
 }
 .categoriaEstilos .estilos .tarjeta .tarjetasCard {
   background-color: #384F70;
-  padding: 20px;
+  padding: 10px;
   color: #EFEBDD;
   font-size: 18px;
-  width: 300px;
 }
 .categoriaEstilos .estilos .tarjeta .tarjetasCard img {
-  height: 200px;
+  height: 300px;
+  width: 360px;
 }
 
 #local {

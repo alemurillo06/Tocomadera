@@ -100,12 +100,11 @@ header .navbar .nav-item .nav-link:hover {
 
 .servicios {
   background-color: #384F70;
-  height: 450px;
+  padding: 80px;
 }
 .servicios .serviciosTitulo {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 35px;
+  padding: 40px;
   color: #EFEBDD;
   letter-spacing: 2px;
 }
@@ -114,10 +113,9 @@ header .navbar .nav-item .nav-link:hover {
   justify-content: center;
 }
 .servicios .servicioContenedor .servicioIndi {
-  width: 210px;
+  width: 250px;
   align-items: center;
   text-align: center;
-  padding-bottom: 90px;
   color: #587BB0;
 }
 .servicios .servicioContenedor .servicioIndi .divTexto .texto {
@@ -145,13 +143,13 @@ header .navbar .nav-item .nav-link:hover {
 }
 .categoriaEstilos .estilos .tarjeta .tarjetasCard {
   background-color: #384F70;
-  padding: 10px;
+  width: 100%;
   color: #EFEBDD;
   font-size: 18px;
+  padding: 8px;
 }
 .categoriaEstilos .estilos .tarjeta .tarjetasCard img {
-  height: 300px;
-  width: 360px;
+  height: 80%;
 }
 
 #local {

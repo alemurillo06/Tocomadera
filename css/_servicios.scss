@@ -1,22 +1,19 @@
 .servicios{
     background-color: $colorFondo;
-    height: 450px;
+    padding: 80px;
     .serviciosTitulo{
         text-align: center;
-        padding-top: 100px;
-        padding-bottom: 35px;
+        padding: 40px;
         color: $blanco;
         letter-spacing: 2px;
-        
     }
     .servicioContenedor{
         display: flex;
         justify-content:center;
         .servicioIndi{
-            width: 210px;
+            width: 250px;
             align-items: center;
             text-align: center;
-            padding-bottom: 90px;
             color: $detalles;
             .divTexto{
                 .texto{

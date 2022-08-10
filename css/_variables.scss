@@ -12,9 +12,8 @@ $gris: #D9D9D9;
     .botonColor{
         background-color: $detalles;
         border-color: $colorToque;
-        width: 100px;
-        height: 35px;
-        font-size: 15px;
+        height: 40px;
+        font-size: 13px;
         text-align: center;
         &:hover{
             background-color: $colorFondo;

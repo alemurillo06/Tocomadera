@@ -1,8 +1,6 @@
 .categoriaEstilos{
     padding: 40px;
     background: #78A8F0 fixed no-repeat 50% 50%;
-    background-size: cover;
-    width: 100%;
     background-image: url(../imagenes/krystal-black-V5OEpF12pzw-unsplash.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -11,15 +9,15 @@
         .tarjeta{
             display: flex;
             flex-direction: row;
-            justify-content: center;   
+            justify-content: center; 
             .tarjetasCard{
                 background-color: $colorFondo;
-                width: 100%;
+                width: 500px;
                 color: $blanco;
-                font-size: 18px;
-                padding: 8px;
+               border: 10px solid $colorFondo;
+                font-size: 10px;
                 img{
-                    height: 60%;
+                    height: 80%;
                 }
             }
         }

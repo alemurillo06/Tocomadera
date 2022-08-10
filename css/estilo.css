@@ -6,9 +6,8 @@
 .tarjeta .botonColor {
   background-color: #587BB0;
   border-color: #78A8F0;
-  width: 100px;
-  height: 35px;
-  font-size: 15px;
+  height: 40px;
+  font-size: 13px;
   text-align: center;
 }
 .tarjeta .botonColor:hover {
@@ -129,8 +128,6 @@ header .navbar .nav-item .nav-link:hover {
 .categoriaEstilos {
   padding: 40px;
   background: #78A8F0 fixed no-repeat 50% 50%;
-  background-size: cover;
-  width: 100%;
   background-image: url(../imagenes/krystal-black-V5OEpF12pzw-unsplash.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -143,13 +140,13 @@ header .navbar .nav-item .nav-link:hover {
 }
 .categoriaEstilos .estilos .tarjeta .tarjetasCard {
   background-color: #384F70;
-  width: 100%;
+  width: 500px;
   color: #EFEBDD;
-  font-size: 18px;
-  padding: 8px;
+  border: 10px solid #384F70;
+  font-size: 10px;
 }
 .categoriaEstilos .estilos .tarjeta .tarjetasCard img {
-  height: 60%;
+  height: 80%;
 }
 
 #local {
@@ -240,6 +237,9 @@ footer .finalDos {
   padding: 30px 0;
   color: #D9D9D9;
 }
+.contenedorContacto .form-control {
+  border: 2px solid #78A8F0;
+}
 
 #galeria {
   text-align: center;
@@ -257,11 +257,11 @@ footer .finalDos {
 }
 #galeria .galeriaImg img {
   width: 100%;
-  height: 500px;
-  padding: 40px;
+  height: 400px;
+  padding: 30px;
 }
 #galeria .galeriaImg img:hover {
-  border: 5px solid #384F70;
+  border: 4px solid #384F70;
 }
 
 #parallax {
@@ -277,7 +277,7 @@ footer .finalDos {
 #parallax #parallax1 {
   background-color: #78A8F0;
   opacity: 0.7;
-  width: 50%;
+  width: 80%;
   text-align: center;
   margin: 30px 20px;
 }
@@ -315,22 +315,20 @@ footer .finalDos {
   text-align: center;
 }
 .catalogoProductos h6 {
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px;
   margin-bottom: 50px;
   letter-spacing: 2px;
 }
 .catalogoProductos .card {
   background-color: #384F70;
-  padding: 15px;
   justify-content: baseline;
-  color: #D9D9D9;
+  color: #EFEBDD;
+  font-size: 18px;
+  border: 8px solid #384F70;
   font-family: "Roboto", sans-serif;
 }
 .catalogoProductos .card img {
-  height: 200px;
   width: 100%;
-}
-.catalogoProductos .card .btn {
-  width: 80px;
+  height: 200px;
 }/*# sourceMappingURL=estilo.css.map */

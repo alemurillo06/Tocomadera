@@ -1,24 +1,23 @@
 .catalogoProductos{
     padding-top: 100px;
-    text-align: center;
+    text-align: center;        
+
     h6{
-        font-size: 20px;
+        font-size: 30px;
         padding: 10px;
         margin-bottom: 50px;
         letter-spacing: 2px;
     }
     .card{
         background-color: $colorFondo;
-        padding: 15px;
         justify-content: baseline;
-        color: $gris;
+        color: $blanco;
+        font-size: 18px;
+        border: 8px solid $colorFondo;
         font-family: 'Roboto', sans-serif;
         img{
-            height: 200px;
             width: 100%;
-        }
-        .btn{
-            width: 80px;
+            height: 200px;
         }
     }
 }
